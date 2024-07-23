@@ -9,7 +9,14 @@ The example images for the rectangular and hexagonal (NiZr-like) local order are
 ## Triangular crystal
 
 The initial image (triangular.png) is:
-![Alt Text]()
+
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/triangular.png" width="500">
+
+### Particles detection
+
+Particles detection is applied with the following parameters: minR:22, maxR:25, Sensitivity:1, min distance:1.4 and  method:2-stage. Scan operation is used for the thresholding of edges detection from 0.05 to 0.4 with steps of 0.05. The result is:
+
+### Directionality detection
 
 ## Rectangular (CsCl-lke) crystal
 
