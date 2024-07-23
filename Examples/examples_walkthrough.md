@@ -16,7 +16,12 @@ The initial image (triangular.png) is:
 
 Particles detection is applied with the following parameters: minR:22, maxR:25, Sensitivity:1, min distance:1.4 and  method:2-stage. Scan operation is used for the thresholding of edges detection from 0.05 to 0.4 with steps of 0.05. The result is:
 
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/triangular_particles.png" width="500">
+
 ### Directionality detection
+After creating a triangular hull, the identified masks' directions with multiplicative factor of 3 and fraction factor of 1.4, looks like:
+
+<img src="" width="500">
 
 ## Rectangular (CsCl-lke) crystal
 
