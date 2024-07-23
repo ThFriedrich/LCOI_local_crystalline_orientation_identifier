@@ -21,7 +21,7 @@ Particles detection is applied with the following parameters: minR:22, maxR:25, 
 ### Directionality detection
 After creating a triangular hull, the identified masks' directions with multiplicative factor of 3 and fraction factor of 1.4, looks like:
 
-<img src="" width="500">
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/triangular_masks.png" width="500">
 
 ## Rectangular (CsCl-lke) crystal
 
