@@ -8,6 +8,9 @@ The example images for the rectangular and hexagonal (NiZr-like) local order are
 
 ## Triangular crystal
 
+The initial image (triangular.png) is:
+![Alt Text]()
+
 ## Rectangular (CsCl-lke) crystal
 
 ## Hexagonal (NiZr-like) crystal
