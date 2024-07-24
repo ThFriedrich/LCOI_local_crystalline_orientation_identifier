@@ -19,8 +19,38 @@ Particles detection is applied with the following parameters: minR:22, maxR:25, 
 ### Directionality detection
 After creating a triangular hull, the identified masks' directions with multiplicative factor of 3 and fraction factor of 1.4, looks like:
 
-<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/triangular_masks.png" width="500">
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/triangular_masks.png" width="790">
 
 ## Rectangular (CsCl-lke) crystal
 
+The initial image (CsCl_rectangular.png) is:
+
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/CsCl_rectangular.png" width="500">
+
+### Particles detection
+
+Particles detection is applied with the following parameters: minR:16, maxR:17, Sensitivity:1, min distance:1.4 and  method:Phase coding. Scan operation is used for the thresholding of edges detection from 0.05 to 0.4 with steps of 0.05. A single particles' centers optimization is applied. The result is:
+
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/rectangular_particles.png" width="510">
+
+### Directionality detection
+After creating a rectangular hull, the identified masks' directions with multiplicative factor of 4 and fraction factor of 1.6, looks like:
+
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/rectangular_masks.png" width="790">
+
 ## Hexagonal (NiZr-like) crystal
+
+The initial image (NiZr_hexagonal.png) is:
+
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/NiZr_hexagonal.png" width="500">
+
+### Particles detection
+
+Particles detection is applied with the following parameters: minR:29, maxR:30, Sensitivity:0.99, min distance:2 and  method:2-stage. Auto thresholding is used.  The result is:
+
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/NiZr_Hexagonal_particles.png" width="520">
+
+### Directionality detection
+After creating a hexagonal hull, the identified masks' directions with multiplicative factor of 6 and fraction factor of 1.6, looks like:
+
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/NiZr_Hexagonal_masks.png" width="790">
