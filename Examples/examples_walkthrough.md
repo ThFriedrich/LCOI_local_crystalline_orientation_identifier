@@ -1,10 +1,8 @@
 # Examples walkthrough
 
-This file provides a walkthrough guide for the crystal's directionality analysis of the three attached example files. The examples are: triangular crystal, rectangular crystal (cross-section of a CsCl-like crystal) and hexagonal crystal (cross-section of a NiZr-like crystal). For a more thorough guide for how to use the app see the attched user manual.
+This file provides a walkthrough guide for the crystal's directionality analysis of the three attached example files. This is not a full guide for the use of the application but rather a list of suggested parameters for the analysis of the examples and the results expected from these routines. For a more thorough guide on how to use the app see the attched user manual.
 
-The example image for the triangular local order is a cropped version of an image adopted from the Wikipedia page of "Colloidal crystal" (as of 23/07/2024), uploaded by Zephyris.
-
-The example images for the rectangular and hexagonal (NiZr-like) local order are adopted with permission from experimental data produced in the research group of Prof. Rafal Klajn.
+The examples are: triangular crystal, rectangular crystal (cross-section of a CsCl-like crystal) and hexagonal crystal (cross-section of a NiZr-like crystal). The example image for the triangular local order is a cropped version of an image adopted from the Wikipedia page of "Colloidal crystal" (as of 23/07/2024), uploaded by Zephyris. The example images for the rectangular and hexagonal (NiZr-like) local order are adopted with permission from experimental data produced in the research group of Prof. Rafal Klajn.
 
 ## Triangular crystal
 
