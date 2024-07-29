@@ -19,7 +19,7 @@ After loading the image and optional contrast adjustment the user should first a
 
 <img src="https://github.com/SnirMeiri/crystalDirections/blob/main/User%20guide%20images/over2.png" width="800">
 
-After particle identification and mask creation the following step is particles pairs identification by considering all particles below a threshold set by considering the created mask. Then, the mask is located at all identified pairs and screened for the sum of the distances to the closest particles to each mask's vertex. Then, the particles closest to each vertex in the remaining fits is identified and  
+After particle identification and mask creation the following step is particles pairs identification by considering all particles below a threshold set by considering the created mask. Then, the mask is located at all identified pairs and screened for the sum of the distances to the closest particles to each mask's vertex. Then, the particles closest to each vertex in the screened fits is identified and the optimal location and orientation is computed analytically. For more details see (add.................). Finally, the mask can be adjusted using all found fits by takings the means of the relevant distances and the updated fits can be recomputed.  
 
 # Examples
 There are three example images for analysis in the folder examples, along with suggested parametes for each. 
