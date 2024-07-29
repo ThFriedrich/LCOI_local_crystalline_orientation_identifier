@@ -13,6 +13,8 @@ Snir Meiri
 The main objective of the application is to identify the orientation of the local crystalline order.
 The following figure summarizes the general flow of the identification process:
 
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/triangular.png" width="500">
+
 # Examples
 There are three example images for analysis in the folder examples, along with suggested parametes for each. 
 
