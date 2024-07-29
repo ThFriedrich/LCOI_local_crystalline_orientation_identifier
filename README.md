@@ -5,6 +5,8 @@ Snir Meiri
 - Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot 76100, Israel 
 # Statement of need
 
+Detection and analysis of the orientation of local crystalline order arises in different fields such as chemistry, materials science and condenssed matter physics. In particular, such analysis is central for studying crystal melting, jamming, crystal twinning and crystal strains, among others. The stantard used tool bond-orientational order parameter has varoius shortcomings, including high sensitivity to defects and lack of robustness to noise, where small locations shifts can lead to abrupt jumps in the identified directionality. 
+
 # Summary
 
 # User guide
