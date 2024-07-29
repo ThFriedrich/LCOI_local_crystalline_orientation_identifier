@@ -1,4 +1,4 @@
-# crystalDirections
+# COOI - Crystal orientational order identifier using mask fitting implemented in MATLAB.
 ## Author
 Snir Meiri
 ### Affiliation
