@@ -10,10 +10,16 @@ Snir Meiri
 # User guide
 
 ## Overview
-The main objective of the application is to identify the orientation of the local crystalline order.
+The main objective of the application is to identify the orientation of the local crystalline order from crystal imaging data.
 The following figure summarizes the general flow of the identification process:
 
-<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/triangular.png" width="500">
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/User%20guide%20images/over1.png" width="800">
+
+After loading the image and optional contrast adjustment the user should first apply particle detection or upload pre-identified data. Then, the user creates a mask (hull) by manually choosing particles of the desired symmetry. The options are triangular, rectangular and hexagonal, where the last two can either have 2-fold symmetry or 4-fold and 6-fold, respectively. Next, the local orientation of the optimal fits of the created mask to the identified particles is detected and color-coded. A more detailed scheme of the oreintation detection is:
+
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/User%20guide%20images/over2.png" width="800">
+
+After particle identification and mask creation the following step is particles pairs identification by considering all particles below a threshold set by considering the created mask. Then, the mask is located at all identified pairs and screened for the sum of the distances to the closest particles to each mask's vertex. Then, the particles closest to each vertex in the remaining fits is identified and  
 
 # Examples
 There are three example images for analysis in the folder examples, along with suggested parametes for each. 
