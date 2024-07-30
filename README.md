@@ -1,13 +1,16 @@
-# COOI - Crystal orientational order identifier using mask fitting implemented in MATLAB.
+# COOI - Crystal's orientational order identifier using mask fitting implemented in MATLAB.
 ## Author
 Snir Meiri
 ### Affiliation
-- Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot 76100, Israel 
-# Statement of need
-
-Detection and analysis of the orientation of local crystalline order arises in different fields such as chemistry, materials science and condenssed matter physics. In particular, such analysis is central for studying crystal melting, jamming, crystal twinning and crystal strains, among others. The stantard used tool bond-orientational order parameter has varoius shortcomings, including high sensitivity to defects and lack of robustness to noise, where small locations shifts can lead to abrupt jumps in the identified directionality. 
+- Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot 76100, Israel
 
 # Summary
+
+The main objective of COOI is to identify orientation information of local crystalline order from microscope imaging data such as Transmission Electron Microscopy (TEM). In particular, the software is aimed to identify triangular, rectangular and hexagonal order in planar cross-sections of colloidal crystals. The orientation identification is based on mask fitting to the identified particles. The software, implemented as a MATLAB application, allows the user various tools including basic image proccessing, particles identification, mask fitting, orientations analysis and strain measurements in the crystal. 
+
+# Statement of need
+
+Detection and analysis of the orientation of local crystalline order arises in different fields such as chemistry, materials science and condenssed matter physics. In particular, such analysis is central for studying crystal melting, jamming, crystal twinning and crystal strains, among others. The stantard used tool bond-orientational order parameter has varoius shortcomings, including high sensitivity to defects and lack of robustness to noise, where small location shifts can lead to abrupt jumps in the identified directionality. 
 
 # User guide
 
