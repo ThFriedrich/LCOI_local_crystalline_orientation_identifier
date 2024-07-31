@@ -32,7 +32,7 @@ The main tab with a loaded image looks as follows:
 
 <img src="https://github.com/SnirMeiri/crystalDirections/blob/main/User%20guide%20images/main.png" width="1400">
 
-The user can load a new image (1), load and save the project and export specific images/the app screen. Next, the user can crop the image (2). If the crystal is imaged on a background, the user can segment the image (3) and keep/remove the segmented region marked by a colored mask. The segmentation is based on the MATLAB function bwboundaries, and the user can midify the hole-filling factor. Next, the user can adjust the contrast using several schemes (4). The scheme that usually works best is AdaptHistEq.
+The user can load a new image (1), load and save the project and export specific images/the app screen. Next, the user can crop the image (2). If the crystal is imaged on a background, the user can segment the image (3) and keep/remove the segmented region marked by a colored mask. The segmentation is based on the MATLAB function bwboundaries, and the user can midify the hole-filling factor. Notice that the segmentation time can be long and depends on the size of the image. Next, the user can adjust the contrast using several schemes (4). The scheme that usually works best is AdaptHistEq.
 
 <img src="https://github.com/SnirMeiri/crystalDirections/blob/main/User%20guide%20images/adjust.png" width="1400">
 
