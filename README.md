@@ -6,11 +6,11 @@ Snir Meiri
 
 # Summary
 
-COOI is designed to extract orientation information about local crystalline order from microscopy images such as transmission electron microscopy (TEM). Specifically, the software is able to identify triangular, rectangular and hexagonal order within planar cross-sections of colloidal crystals. The orientation identification is based on mask fitting to the identified particles. The software, implemented as a MATLAB application, allows the user various tools including basic image proccessing, particles identification, mask fitting, orientations analysis and strain measurements in the crystal. 
+COOI is designed to extract orientation information about local crystalline order from microscopy images such as transmission electron microscopy (TEM). Specifically, the software is able to identify triangular, rectangular and hexagonal order within planar cross-sections of colloidal crystals. The orientation identification is based on mask fitting to the identified particles. The software, implemented as a MATLAB application, allows the user various tools including basic image proccessing, particles identification, mask cration and fitting, orientations analysis and strain measurements in the crystal. 
 
 # Statement of need
 
-Detection and analysis of the orientation of local crystalline order arises in different fields such as chemistry, materials science and condenssed matter physics. In particular, such analysis is central for studying crystal melting, jamming, crystal twinning and crystal strains, among others. The stantard used tool is bond-orientational order parameter. It has varoius shortcomings, including high sensitivity to defects and lack of robustness to noise, where small location shifts can lead to abrupt jumps in the identified directionality. 
+Detection and analysis of the orientation of local crystalline order arises in different fields such as chemistry, materials science and condenssed matter physics. In particular, such analysis is central for studying crystal melting, jamming, crystal twinning and crystal strains, among others. The stantard tool used for such analysis is bond-orientational order parameter. It has varoius shortcomings, including high sensitivity to defects and lack of robustness to noise, where small location shifts can lead to abrupt jumps in the identified directionality. While some works focus on correcting the definition of the order parameter, we propose a different approach based on optimal fitting of a mask of a specific shape to the detected particles. Within this approach, the resulting directionality is continuous and robust to local noise. The main source of error for it's accuracy is stemming from the accuracy of particles' location detection. 
 
 # User guide
 
@@ -32,7 +32,7 @@ The main tab with a loaded image looks as follows:
 
 <img src="https://github.com/SnirMeiri/crystalDirections/blob/main/User%20guide%20images/main.png" width="1400">
 
-The user can load a new image (1), load and save the project and export specific images/the app screen. Next, the user can crop the image (2). If the crystal is imaged on a background, the user can segment the image (3) and keep/remove the segmented region marked by a colored mask. Next, the user can adjust the contrast using several schemes (4). The scheme that usually works best is AdaptHistEq.
+The user can load a new image (1), load and save the project and export specific images/the app screen. Next, the user can crop the image (2). If the crystal is imaged on a background, the user can segment the image (3) and keep/remove the segmented region marked by a colored mask. The segmentation is based on the MATLAB function bwboundaries, and the user can midify the hole-filling factor. Next, the user can adjust the contrast using several schemes (4). The scheme that usually works best is AdaptHistEq.
 
 <img src="https://github.com/SnirMeiri/crystalDirections/blob/main/User%20guide%20images/adjust.png" width="1400">
 
