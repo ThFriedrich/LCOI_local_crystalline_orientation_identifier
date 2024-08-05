@@ -1,6 +1,7 @@
 # COOI - Crystal's orientational order identifier using mask fitting implemented in MATLAB.
-## Author
-Snir Meiri
+## Authors
+- Snir Meiri
+- Efi Efrati
 ### Affiliation
 - Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot 76100, Israel
 
