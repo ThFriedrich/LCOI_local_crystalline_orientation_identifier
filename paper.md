@@ -1,4 +1,4 @@
-# COOI - Crystal's orientational order identifier using mask fitting implemented in MATLAB.
+# LCOI - Local crystalline orientation identifier using mask fitting implemented in MATLAB.
 ## Authors
 - Snir Meiri
 - Efi Efrati
@@ -11,7 +11,7 @@ Detection and analysis of the orientation of local crystalline order arises in d
 
 - # Summary
 
-COOI is designed to extract orientation information about local crystalline order from microscopy images such as transmission electron microscopy (TEM). Specifically, the software is able to identify triangular, rectangular and hexagonal order within planar cross-sections of colloidal crystals. The orientation identification is based on mask fitting to the identified particles. The software, implemented as a MATLAB application, allows the user various tools including basic image proccessing, particles identification, mask cration and fitting, orientations analysis and strain measurements in the crystal. 
+LCOI is designed to extract orientation information about local crystalline order from microscopy images such as transmission electron microscopy (TEM). Specifically, the software is able to identify triangular, rectangular and hexagonal order within planar cross-sections of colloidal crystals. The orientation identification is based on mask fitting to the identified particles. The software, implemented as a MATLAB application, allows the user various tools including basic image proccessing, particles identification, mask cration and fitting, orientations analysis and strain measurements in the crystal. 
 
 The following figure summarizes the general flow of the identification process:
 
