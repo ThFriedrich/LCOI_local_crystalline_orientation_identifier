@@ -9,7 +9,7 @@ LCOI is designed to extract orientation information about local crystalline orde
 Detection and analysis of the orientation of local crystalline order arises in different fields such as chemistry, materials science and condenssed matter physics. In particular, such analysis is central for studying crystal melting, jamming, crystal twinning and crystal strains, among others. The stantard tool used for such analysis is bond-orientational order parameter. It has varoius shortcomings, including high sensitivity to defects and lack of robustness to noise, where small location shifts can lead to abrupt jumps in the identified directionality. While some works focus on correcting the definition of the order parameter, we propose a different approach based on optimal fitting of a mask of a specific shape to the detected particles. Within this approach, the resulting directionality is continuous and robust to local noise. The accuracy in mask orientation detection is primarily limited by the accuracy of the particle location detection. 
 
 # Installation
-Download the app and supplementary MATLAB functions to one folder and open the application through the MATLAB AppDesigner. The application was developed using the 2021b MATLAB version and might not be compatible with earlier versions.  
+Download the app and supplementary MATLAB functions to one folder and open the application through the MATLAB AppDesigner. The application was developed using the 2021b MATLAB version and might not be compatible with earlier versions. The application uses the Image Proccessing toolbox and the Parallel Computation toolbax. 
 
 # User guide
 
