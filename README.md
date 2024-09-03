@@ -11,6 +11,9 @@ Detection and analysis of the orientation of local crystalline order arises in d
 # Installation
 Download the app and supplementary MATLAB functions to one folder and open the application through the MATLAB AppDesigner. The application was developed using the 2021b MATLAB version and might not be compatible with earlier versions. The application uses the Image Proccessing toolbox and the Parallel Computation toolbax. 
 
+# License
+This project is licensed under the [NPOSL-3.0 License](https://spdx.org/licenses/NPOSL-3.0).
+
 # User guide
 
 ## Overview
