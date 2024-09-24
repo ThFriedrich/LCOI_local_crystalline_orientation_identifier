@@ -62,7 +62,7 @@ The next tab is Tessellation & strains – hexagonal:
 
 <img src="https://github.com/SnirMeiri/crystalDirections/blob/main/User%20guide%20images/hexagonal.png" width="1400">
 
-After associating the particles with each mask’s center (1) the user can both tessellate (2) per particle height (for NiZr-like hexagonal order) or to measure strains in the crystal (3). The first is designated for cross-sections containing particles half a layer below others where each layer is colored in yellow or blue. The tessellation can either start with the best-fitting mask or by manually picking a mask. In both cases the color-coding can be flipped per user request.  The tessellation applies to all neighboring masks connected by 2 particles. In the strains tab the user can measure deviations of the distance between particles at the vertices of the masks from the mean distance in all masks or from a manually picked value. The color-bar can be symmetric or between the minimal and maximal values, and edges farther than n standard deviations from the mean can be omitted.  
+After associating the particles with each mask’s center (1) the user can both tessellate (2) per particle height (in case it is applicable for the hexagonal order) or to measure strains in the crystal (3). The first is designated for cross-sections containing particles half a layer below others where each layer is colored in yellow or blue. The tessellation can either start with the best-fitting mask or by manually picking a mask. In both cases the color-coding can be flipped per user request.  The tessellation applies to all neighboring masks connected by 2 particles. In the strains tab the user can measure deviations of the distance between particles at the vertices of the masks from the mean distance in all masks or from a manually picked value. The color-bar can be symmetric or between the minimal and maximal values, and edges farther than n standard deviations from the mean can be omitted.  
 
 The next tab of Strains – rectangular & triangular have the same form and functionality as the strain tab of the hexagonal order. The last tab is Exporting, where the user can choose specific variables to export to a mat file, using a list of checkboxes. 
 
@@ -73,4 +73,4 @@ There are three example images for analysis in the folder examples, along with s
 
 The example image for the triangular local order is a cropped version of an image from the Wikipedia page of "Colloidal crystal" (as of 23/07/2024), uploaded by Zephyris.
 
-The example images for the rectangular (CsCl-like) and hexagonal (NiZr-like) local order are adopted with permission from experimental data produced in the research group of Prof. Rafal Klajn. 
+The example images for the rectangular and 2-fold hexagonal local order are adopted with permission from experimental data produced in the research group of Prof. Rafal Klajn. 
