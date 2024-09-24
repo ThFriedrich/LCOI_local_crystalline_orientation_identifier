@@ -23,6 +23,10 @@ After loading the image and optional contrast adjustment the user should first a
 
 After particles identification and mask creation the following step is particles pairs identification by considering all particles below a distance threshold set by considering the created mask. Then, a fitting mask is located as if each pair corresponds to an edge of the mask. These initial guesses are screened for the sum of the distances to the closest particles to each mask's vertex.  Next, for the screened masks’ location and orientation, the particle associated with each mask’s vertex is identified and the optimal location and orientation is computed analytically. For more details see the attached file: Mask location and rotation optimization. Finally, the mask can be adjusted using all found fits by takings the means of the relevant distances and the updated optimal location and orientation are recomputed.
 
+- # Acknowledgements
+
+
+
 - # References
 - 
 BUSING, William R.; LEVY, Henri A. ANGLE CALCULATIONS FOR 3-AND 4-CIRCLE X-RAY AND NEUTRON DIFFRACTOMETERS. Oak Ridge National Lab.(ORNL), Oak Ridge, TN (United States), 1967.
