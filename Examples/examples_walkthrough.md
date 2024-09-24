@@ -42,7 +42,7 @@ After creating a rectangular hull, the identified masks' directions with multipl
 
 The initial image (2_fold_hexagonal.png) is:
 
-<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/NiZr_hexagonal.png" width="500">
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/2_fold_hexagonal.png" width="500">
 
 ### Particles detection
 
