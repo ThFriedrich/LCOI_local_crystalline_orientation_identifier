@@ -48,9 +48,9 @@ The initial image (2_fold_hexagonal.png) is:
 
 Particles detection is applied with the following parameters: minR:29, maxR:30, Sensitivity:0.99, min distance:2 and  method:2-stage. Auto thresholding is used.  The result is:
 
-<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/NiZr_Hexagonal_particles.png" width="520">
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/2_fold_Hexagonal_particles.png" width="520">
 
 ### Directionality detection
 After creating a hexagonal hull, the identified masks' directions with multiplicative factor of 6 and fraction factor of 1.6, looks like:
 
-<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/NiZr_Hexagonal_masks.png" width="790">
+<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/2_fold_Hexagonal_masks.png" width="790">
