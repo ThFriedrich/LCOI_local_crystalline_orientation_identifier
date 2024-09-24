@@ -29,7 +29,7 @@ We highly acknowledge Prof. Rafal Klajn and his group members for introducing us
 
 - # References
 - 
-BUSING, William R.; LEVY, Henri A. ANGLE CALCULATIONS FOR 3-AND 4-CIRCLE X-RAY AND NEUTRON DIFFRACTOMETERS. Oak Ridge National Lab.(ORNL), Oak Ridge, TN (United States), 1967.
+BUSING, William R.; LEVY, Henri A. Angle calculations for 3-and 4-circle X-ray and neutron diffractometers. Oak Ridge National Lab.(ORNL), Oak Ridge, TN (United States), 1967.
 
 ZAEFFERER, S. A critical review of orientation microscopy in SEM and TEM. Crystal Research and Technology, 2011, 46.6: 607-628.‏‏
 
