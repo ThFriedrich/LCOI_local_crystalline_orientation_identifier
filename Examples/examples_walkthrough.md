@@ -38,9 +38,9 @@ After creating a rectangular hull, the identified masks' directions with multipl
 
 <img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/rectangular_masks.png" width="790">
 
-## Hexagonal (NiZr-like) crystal
+## Hexagonal (2-fold symmetry) crystal
 
-The initial image (NiZr_hexagonal.png) is:
+The initial image (2_fold_hexagonal.png) is:
 
 <img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/NiZr_hexagonal.png" width="500">
 
