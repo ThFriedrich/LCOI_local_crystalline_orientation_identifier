@@ -1,9 +1,25 @@
+---
+title: 'LCOI - Local crystalline orientation identifier using mask fitting implemented in MATLAB'
+authors:
+  - name: Snir Meiri
+    orcid: 0000-0003-3133-8269
+    corresponding: true # (This is how to denote the corresponding author)
+    affiliation: 1
+ - name: Efi Efrati
+    orcid: 0000-0001-5338-7980
+    affiliation: 1
+affiliations:
+ - name: Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot 76100, Israel
+   index: 1
+date: 25 September 2024
+bibliography: paper.bib
+
 # LCOI - Local crystalline orientation identifier using mask fitting implemented in MATLAB.
 ## Authors
 - Snir Meiri
 - Efi Efrati
 ### Affiliation
-- Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot 76100, Israel
+- 
 
 - # Statement of need
 
@@ -28,7 +44,7 @@ After particles identification and mask creation the following step is particles
 We highly acknowledge Prof. Rafal Klajn and his group members for introducing us to the field and its challenges which resulted in this software. This work was supported by ISF grant No. 1444/21.
 
 - # References
-- 
+ 
 BUSING, William R.; LEVY, Henri A. Angle calculations for 3-and 4-circle X-ray and neutron diffractometers. Oak Ridge National Lab.(ORNL), Oak Ridge, TN (United States), 1967.
 
 ZAEFFERER, S. A critical review of orientation microscopy in SEM and TEM. Crystal Research and Technology, 2011, 46.6: 607-628.‏‏
