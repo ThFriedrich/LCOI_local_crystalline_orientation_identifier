@@ -20,7 +20,7 @@ date: 25 September 2024
 bibliography: paper.bib
 ---
  
- - # Statement of need
+ - # Statement of need 
 Detection and analysis of the orientation of local crystalline order arises in different fields such as chemistry, materials science and condensed matter physics. In particular, such analysis is central for studying crystal melting, jamming, crystal twinning and crystal strains, among others. Although the local orientations can be deduced from the diffraction data [@Busing:1967; @Zaefferer: 2011; @Angel: 2015] , such analysis must take some spatial averages. The standard tool used for deducing the orientations a set of identified particles in imaging data is bond-orientational order parameter. It has various shortcomings [@Mickel: 2013], including restriction to isotropic lattices, high sensitivity to defects and lack of robustness to noise, where small location shifts can lead to abrupt jumps in the identified directionality. While some works focus on correcting the definition of the order parameter [@Mickel: 2013], we propose a different approach based on optimal fitting of a mask of a specific shape to the detected particles. Within this approach, the resulting directionality is continuous and robust to local noise. The accuracy in mask orientation detection is primarily limited by the accuracy of the particle location detection. 
 
 - # Summary
