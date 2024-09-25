@@ -25,11 +25,12 @@ LCOI is designed to extract orientation information about local crystalline orde
 
 The following figure summarizes the general flow of the identification process:
 
-<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/User%20guide%20images/over1.png" width="800">
+![](User%20guide%20images/over1.png)
+
 
 After loading the image and optional contrast adjustment the user should first apply particle detection or upload pre-identified data. Then, the user creates a mask (hull) by manually choosing particles of the desired symmetry and the mask is symmetrized by the software. The options are triangular, rectangular and hexagonal, where the last two can either have 2-fold symmetry or 4-fold and 6-fold, respectively. Next, the local orientation of the optimal fits of the created mask to the identified particles is detected and color-coded. A more detailed scheme of the orientation detection is:
 
-<img src="https://github.com/SnirMeiri/crystalDirections/blob/main/User%20guide%20images/over2.png" width="800">
+![](User%20guide%20images/over2.png)
 
 After particles identification and mask creation the following step is particles pairs identification by considering all particles below a distance threshold set by considering the created mask. Then, a fitting mask is located as if each pair corresponds to an edge of the mask. These initial guesses are screened for the sum of the distances to the closest particles to each mask's vertex.  Next, for the screened masks’ location and orientation, the particle associated with each mask’s vertex is identified and the optimal location and orientation is computed analytically. For more details see the attached file: Mask location and rotation optimization. Finally, the mask can be adjusted using all found fits by takings the means of the relevant distances and the updated optimal location and orientation are recomputed.
 
