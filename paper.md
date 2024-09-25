@@ -4,7 +4,7 @@ title: 'LCOI - Local crystalline orientation identifier using mask fitting imple
 authors:
   - name: Snir Meiri
     orcid: 0000-0003-3133-8269
-    corresponding: true # (This is how to denote the corresponding author)
+    corresponding: true 
     affiliation: 1
  - name: Efi Efrati 
     orcid: 0000-0001-5338-7980
