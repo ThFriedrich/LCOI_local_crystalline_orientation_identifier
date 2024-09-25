@@ -1,7 +1,11 @@
-name: Simple Test
-on: [push]
+name: Simple Test Workflow
+
+on: 
+  push:
+
 jobs:
-  test:
+  test-job:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello, world!"
+      - name: Run a simple echo command
+        run: echo "Hello, world!"
