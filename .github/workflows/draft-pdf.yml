@@ -3,10 +3,10 @@ name: JOSS pdf constructor
 on:
   push:
     paths:
-      - 'paper.md'
-      - 'paper.bib'
-      - ''
-      - ''
+      - paper.md
+      - paper.bib
+      - User%20guide%20images/over1.png
+      - 
 
 jobs:
   paper:
