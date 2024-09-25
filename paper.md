@@ -1,16 +1,18 @@
 ---
-title: 'LCOI - Local crystalline orientation identifier using mask fitting implemented in MATLAB'
+title: 'LCOI: Local crystalline orientation identifier using mask fitting implemented in MATLAB'
 tags:
   - MATLAB
   - Collodial crystals
   - Crystal analysis
+  - - FIB-TEM
+
 authors:
   - name: Snir Meiri
     orcid: 0000-0003-3133-8269
-    affiliation: 1
+    affiliation: "1"
  - name: Efi Efrati 
     orcid: 0000-0001-5338-7980
-    affiliation: 1
+    affiliation: "1"
 affiliations:
  - name: Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot 76100, Israel
    index: 1
