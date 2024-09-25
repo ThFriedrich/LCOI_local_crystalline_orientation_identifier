@@ -1,5 +1,4 @@
-name: JOSS pdf constructor
-
+name: Draft PDF
 on:
   push:
     paths:
@@ -7,14 +6,14 @@ on:
       - paper.bib
       - User%20guide%20images/over1.png
       - User%20guide%20images/over2.png
-
+      
 jobs:
   paper:
     runs-on: ubuntu-latest
     name: Paper Draft
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Build draft PDF
         uses: openjournals/openjournals-draft-action@master
         with:
