@@ -12,14 +12,6 @@ affiliations:
  - name: Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot 76100, Israel
    index: 1
 date: 25 September 2024
-bibliography: paper.bib
-
-# LCOI - Local crystalline orientation identifier using mask fitting implemented in MATLAB.
-## Authors
-- Snir Meiri
-- Efi Efrati
-### Affiliation
-- 
 
 - # Statement of need
 
