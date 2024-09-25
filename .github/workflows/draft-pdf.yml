@@ -6,7 +6,7 @@ on:
       - paper.md
       - paper.bib
       - User%20guide%20images/over1.png
-      - 
+      - User%20guide%20images/over2.png
 
 jobs:
   paper:
