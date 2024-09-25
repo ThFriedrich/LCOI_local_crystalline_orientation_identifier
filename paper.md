@@ -5,7 +5,7 @@ authors:
     orcid: 0000-0003-3133-8269
     corresponding: true # (This is how to denote the corresponding author)
     affiliation: 1
- - name: Efi Efrati
+ - name: Efi Efrati 
     orcid: 0000-0001-5338-7980
     affiliation: 1
 affiliations:
