@@ -1,4 +1,4 @@
-classdef CrystalAnalysis_exported < matlab.apps.AppBase
+classdef LCOI_CrystalAnalysis_exported < matlab.apps.AppBase
 
     % Properties that correspond to app components
     properties (Access = public)
