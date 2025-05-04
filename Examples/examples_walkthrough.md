@@ -21,7 +21,7 @@ After creating a triangular hull, the identified masks' directions with multipli
 
 <img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/triangular_masks.png" width="790">
 
-The multiplicative factor is chosen to be the same as the number of the particles in the expected unit-cell (not to include defects in the fit) and the fraction factor is chosen the a moderate value of 1.4 in order to include strained fits but not too dissimilar conformations.
+The multiplicative factor is chosen to be the same as the number of the particles in the expected unit-cell (not to include defects in the fit) and the fraction factor is set to a moderate value of 1.4 in order to include strained fits but not too dissimilar conformations.
 
 ## Rectangular (CsCl-lke) crystal
 
@@ -31,7 +31,7 @@ The initial image (CsCl_rectangular.png) is:
 
 ### Particles detection
 
-Particles detection is applied with the following parameters: minR:16, maxR:17, Sensitivity:1, min distance:1.4 and method:Phase coding. Scan operation is used for the thresholding of edges detection from 0.05 to 0.4 with steps of 0.05. A single particles' centers optimization is applied. Due to the particles overlap within this sample, repeating the optimization process for a few more runs may lead to skewed results and to a lower number of detected particles. The result is:
+Particles detection is applied with the following parameters: minR:16, maxR:17, Sensitivity:1, min distance:1.4 (not to screen partially overlapping particles) and method:Phase coding. Scan operation is used for the thresholding of edges detection from 0.05 to 0.4 with steps of 0.05. A single particles' centers optimization is applied. Due to the particles overlaps within this sample, repeating the optimization process for a few more runs may lead to skewed results and to a lower number of detected particles. The result is:
 
 <img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/rectangular_particles.png" width="510">
 
@@ -48,7 +48,7 @@ The initial image (2_fold_hexagonal.png) is:
 
 ### Particles detection
 
-Particles detection is applied with the following parameters: minR:29, maxR:30, Sensitivity:0.99, min distance:2 and method:2-stage. Auto thresholding is used.  The result is:
+Particles detection is applied with the following parameters: minR:29, maxR:30, Sensitivity:0.99, min distance:2 (as the sample does not have particles overlaps in general) and method:2-stage. Auto thresholding is used.  The result is:
 
 <img src="https://github.com/SnirMeiri/crystalDirections/blob/main/Examples/examples%20results/2_fold_Hexagonal_particles.png" width="520">
 
