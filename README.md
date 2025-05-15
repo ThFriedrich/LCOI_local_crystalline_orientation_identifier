@@ -35,5 +35,3 @@ The example image for the triangular local order is a cropped version of an imag
 
 The example images for the rectangular and 2-fold hexagonal local order are adopted with permission from experimental data produced in the research group of Prof. Rafal Klajn. 
 
-# Contribute
-You are welcome to contribute to the software by reporting bugs or issues, suggesting new features, rasing questions and giving feedback. Please raise an issue or create a pull request to do so.
