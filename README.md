@@ -8,9 +8,6 @@ LCOI is designed to extract orientation information about local crystalline orde
 
 Detection and analysis of the orientation of local crystalline order arises in different fields such as chemistry, materials science and condensed matter physics. In particular, such analysis is central for studying crystal melting, jamming, crystal twinning and crystal strains, among others. The standard tool used for such analysis is bond-orientational order parameter. It has various shortcomings, including high sensitivity to defects and lack of robustness to noise, where small location shifts can lead to abrupt jumps in the identified directionality. While some works focus on correcting the definition of the order parameter, we propose a different approach based on optimal fitting of a mask of a specific shape to the detected particles. Within this approach, the resulting directionality is continuous and robust to local noise. The accuracy in mask orientation detection is primarily limited by the accuracy of the particle location detection. 
 
-# Installation
-Download the app and supplementary MATLAB functions to one folder and open the application through the MATLAB AppDesigner. The application was developed using the 2021b MATLAB version and might not be compatible with earlier versions. The application uses the Image Processing toolbox and the Parallel Computation toolbox. 
-
 # License
 This project is licensed under the [NPOSL-3.0 License](https://spdx.org/licenses/NPOSL-3.0).
 
@@ -35,3 +32,25 @@ The example image for the triangular local order is a cropped version of an imag
 
 The example images for the rectangular and 2-fold hexagonal local order are adopted with permission from experimental data produced in the research group of Prof. Rafal Klajn. 
 
+# Installation
+The LCOI_CrystalAnalysis application can be used in one of the following ways:
+
+## Option 1 – Installable App
+
+- Download the file: LCOI_CrystalAnalysis.mlappinstall
+- Open the file in MATLAB. This will install the app and make it accessible from the Apps tab in the MATLAB interface.
+
+## Option 2 – Run Without Installation
+
+- Download the following files: LCOI_CrystalAnalysis_exported.m and all required external function files (.m files used by the app).
+- Make sure these files are located in the same directory or added to your MATLAB path.
+- Launch the app from the MATLAB Command Window using: app = LCOI_CrystalAnalysis_exported;
+
+## Option 2 – Run Via AppDesigner
+
+For making adjustments to the code one may:
+- Download the files: LCOI_CrystalAnalysis.mlapp and all required external function files (.m files used by the app).
+- Make sure these files are located in the same directory or added to your MATLAB path.
+- Open the app using the MATLAB AppDesigner.
+
+The application was developed using the 2021b MATLAB version and might not be compatible with earlier versions. The application uses the Image Processing toolbox and the Parallel Computation toolbox. 
